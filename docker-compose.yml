@@ -2,7 +2,8 @@ version: "3"
 
 services:
   web:
-    image: "rafaelfarias01/myfirstapp:4.0"
+    build: .
+    # image: "rafaelfarias01/myfirstapp:4.0"
     networks:
       labdocker:
         ipv4_address: 172.20.0.2
